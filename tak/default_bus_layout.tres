@@ -1,0 +1,9 @@
+[gd_resource type="AudioBusLayout" load_steps=2 format=2]
+
+[sub_resource type="AudioEffectNotchFilter" id=2]
+resource_name = "NotchFilter"
+
+[resource]
+bus/0/volume_db = 2.647
+bus/0/effect/0/effect = SubResource( 2 )
+bus/0/effect/0/enabled = false
